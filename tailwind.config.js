@@ -7,7 +7,13 @@ module.exports = withMT({
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        CocoGothic: ["coco-gothic", "sans-serif"],
+        AlteHaas: ["alte-haas-grotesk", "sans-serif"],
+
+      }
+    },
   },
   plugins: [],
 });
