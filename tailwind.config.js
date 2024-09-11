@@ -11,10 +11,13 @@ module.exports = withMT({
       fontFamily: {
         CocoGothic: ["coco-gothic", "sans-serif"],
         AlteHaas: ["alte-haas-grotesk", "sans-serif"],
-
-      }
+      },
+      animation: {
+        'slow-pulse': 'pulse 4s ease-in-out infinite',
+        
+      },
+    
     },
   },
   plugins: [],
 });
-
